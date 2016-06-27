@@ -1,0 +1,71 @@
+
+h1
+{
+font-family:Geneva,Helvetica,sans-serif;
+font-size:40px;
+font-weight:bold;
+color:white;
+text-align:center;
+letter-spacing:5px
+}
+
+a:link {text-decoration:none;color:white;}
+a:visited {text-decoration:none;color:white;}
+a:hover {text-decoration:underline;color:white;}
+a:active {text-decoration:underline;color:white;}
+
+body
+{
+background-color:#78AB46;
+background-image:url('popsicle_sticks.jpg');
+background-repeat:no-repeat;
+background-position:50% 120px;
+font-family:Geneva,Helvetica,sansserif;
+font-size:20px;
+color:black;
+margin:20px;
+padding:5px;
+}
+
+
+.pop
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#poppedname
+{
+text-align:center;
+font:Geneva;
+font-weight:bold;
+font-size:50px;
+}
+
+.classlist
+{
+position:absolute;
+font:Geneva;
+width:50%;
+left:350px;
+top:375px;
+color:black;
+}
+
+li
+{
+float:left;
+display:inline;
+width:50%;
+list-style-type:none;
+}
+
+.nav
+{
+position:absolute;
+left:220px;
+top:50px;
+}
+

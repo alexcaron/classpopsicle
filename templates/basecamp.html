@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/popstyle.css">
+</head>
+
+<body>
+
+<h1> Base Camp </h1>
+
+{% for course in courses %}
+	<a href="/course/home/{{course[1]}}">{{course[0]}}</a>
+{% endfor %}
+<br>
+
+<a href="{{logout}}">Sign out</a>
+
+</body>
+</html>

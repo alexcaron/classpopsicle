@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/stylesheets/popstyle.css">
+</head>
+<body>
+ <div class="nav">
+  <a href="/">Base Camp</a>
+  <br>
+  <a href="/course/home/{{coursekey}}">Course Home</a>  
+   
+ </div>
+
+<h1>
+ {{ name }}
+</h1>
+
+
+
+<form action=/course/pop/{{coursekey}} method=“POST”>
+ 	<input class="pop" type="image" src="/stylesheets/Pop.PNG" alt="Pop!" width="250px">
+</form>
+<br>
+
+<div id="poppedname">
+	{{student}}
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<ul class="classlist">
+ {% for stud in studentlist %}
+  <li> {{stud[0]}} {{stud[1]}} </li>
+ {% endfor %}
+</ul>
+
+</body>
+</html>
